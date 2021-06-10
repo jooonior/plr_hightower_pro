@@ -5,6 +5,7 @@ fetch('./index.json')
     .then(response => response.json())
     .then(data => loadAssets(data));
 async function loadAssets(data) {
+    var _a;
     let layers, releases;
     const releaseUrls = data.releases.map((r) => r.changelog);
     [layers, releases] = await Promise.all([
@@ -12,6 +13,7 @@ async function loadAssets(data) {
         loadReleases(releaseUrls)
     ]);
     init(canvas, layers, showChange, releases.flat());
+    (_a = document.getElementById('loading')) === null || _a === void 0 ? void 0 : _a.classList.add('hidden');
     changeLayer(layers.length - 1);
 }
 async function showChange(url) {
