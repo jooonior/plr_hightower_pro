@@ -53,6 +53,8 @@ function init(canvas, mapLayers, callbackFunc, buglist) {
         drag: pan,
         click: click,
     });
+    view.x = (layers[0].naturalWidth - canvas.clientWidth) / 2;
+    view.y = (layers[0].naturalHeight - canvas.clientHeight) / 2;
     canvas.addEventListener('wheel', zoom);
     render();
 }
