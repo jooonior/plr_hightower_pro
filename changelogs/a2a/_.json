@@ -1,0 +1,39 @@
+[
+	{
+		"x": 499,
+		"y": 1720,
+		"layers": 3,
+		"desc": "changelogs/a2a/BluElevatorTower.md"
+	},
+	{
+		"x": 598,
+		"y": 1720,
+		"layers": 2,
+		"desc": "changelogs/a2a/BluElevatorPlatform.md"
+	},
+	{
+		"x": 608,
+		"y": 1623,
+		"layers": 2,
+		"desc": "changelogs/a2a/BluElevatorRamp.md"
+	},
+
+	{
+		"x": 499,
+		"y": 2407,
+		"layers": 3,
+		"desc": "changelogs/a2a/RedElevatorTower.md"
+	},
+	{
+		"x": 598,
+		"y": 2407,
+		"layers": 2,
+		"desc": "changelogs/a2a/RedElevatorPlatform.md"
+	},
+	{
+		"x": 608,
+		"y": 2503,
+		"layers": 2,
+		"desc": "changelogs/a2a/RedElevatorRamp.md"
+	}
+]
