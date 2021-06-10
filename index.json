@@ -6,11 +6,11 @@
 	"releases": [
 		{
 			"name": "a1a",
-			"changelog": "changelogs/a1a/_.json"
+			"changelog": "changelogs/a1a/index.json"
 		},
 		{
 			"name": "a2a",
-			"changelog": "changelogs/a2a/_.json"
+			"changelog": "changelogs/a2a/index.json"
 		}
 	]
 }
